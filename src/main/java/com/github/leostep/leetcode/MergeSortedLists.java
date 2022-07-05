@@ -2,21 +2,6 @@ package com.github.leostep.leetcode;
 
 public class MergeSortedLists {
 
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode() {}
-
-        ListNode(int val) {this.val = val;}
-
-        ListNode(int val,
-                 ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
-
     public ListNode mergeTwoLists(ListNode list1,
                                   ListNode list2) {
         final ListNode res = new ListNode();
