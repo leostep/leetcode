@@ -8,7 +8,7 @@ public class ValidPalindrome {
                 res.append(c);
             }
         }
-        return res.toString().equals(res.reverse().toString());
+        return res.toString().contentEquals(res.reverse());
     }
 
     public static boolean isPalindromeTwoPointers(String s) {
